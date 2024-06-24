@@ -1,0 +1,18 @@
+@address = http://localhost:1337
+
+
+POST {{address}}/techs
+Content-Type: application/json
+
+{
+  "firstName": "Bob",
+  "lastName": "Smith",
+
+  "email": "bob@aol.com",
+  "phone": "867-5309"
+}
+
+
+### 
+
+GET {{address}}/techs/eb747a30-ba14-4495-8afc-e923f32ec624
